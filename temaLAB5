@@ -62,5 +62,5 @@ if __name__ == "__main__":
     g2 = k5a + k5b + [(3, 6), (5, 6), (5, 8)]
     art, blocuri = tarjan(10, g2)
     print("\nGraf 2 (Exercitiul 2)")
-    print("Puncte de articulatie:", art)      # []
+    print("Puncte de articulatie:", art)     
     print("Componente biconexe:", blocuri)    # un singur bloc cu toate cele 10 varfuri
